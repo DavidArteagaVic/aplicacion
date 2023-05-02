@@ -11,7 +11,7 @@
 
 
 <body>
-<form>
+<form method="post" action="registrar.php">
   <div class="mb-3">
     <label for="identificador" class="form-label">Identificación</label>
     <input type="text" class="form-control" id="identificador" name="identificador">
@@ -25,7 +25,7 @@
 
   <div class="mb-3 ">
     <label for="descripcion" class="form-label">Detalle</label>
-    <input type="password" class="form-control" id="descripcion" name="descrip">
+    <input type="text" class="form-control" id="descripcion" name="descrip">
   </div>
 
   <button type="submit" class="btn btn-primary">Registrar</button>
